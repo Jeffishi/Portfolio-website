@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CONTACT</title>
+    <link rel="icon" href="favicon_io/favicon.ico">
+    <link rel="stylesheet" text="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+</head>
+
+
+<body>
+    <header >
+        <h1>Contact</h1>
+        <!--add your portrait here-->
+        <img src="http://via.placeholder.com/300x90" alt="">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>Arsene Ishimwe</h3>
+        <p>c/o Factory Görlitzer Park</p>
+        <p>5024 Riverside Pwky</p>
+        <p>12435 Dallas, TX</p>
+        Tel/Phone: <a href="tel:281-330-8004">281-330-8004</a>
+        <br>
+        Email: <a href="healthfactory@careerfoundry.com">healthfactory@careerfoundry.com</a>
+        <br>
+        <a href="mailto:healthfactory@careerfoundry.com">Contact Me</a>
+        <br>
+        <form action="" method="post" id="contact-form">
+            <label class="standard-label" for="contact-email">Email: </label>
+            <input type="email" id="contact-email" required>
+
+            <label class="standard-label" for="contact-phone">Telephone: </label>
+            <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-phone">
+            <label class="standard-label" for="Message" >Message:</label>
+            <textarea maxlength="240" requried></textarea>
+            <input type="submit" value="Send message">
+        </form>
+        <script src="js/tota11y.min.js"></script>
+    </main>
+</body>
+
+</html>
